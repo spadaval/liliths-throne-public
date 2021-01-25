@@ -14,3 +14,5 @@ nbactions.xml
 
 # Ignore all generic character images
 res/images/characters/generic/
+
+/build
