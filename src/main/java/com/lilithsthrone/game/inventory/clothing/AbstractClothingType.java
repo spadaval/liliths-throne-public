@@ -2118,7 +2118,7 @@ public abstract class AbstractClothingType extends AbstractCoreType {
 									if(condomColours.size()<8) {
 										condomColours.add(item.getColour(0));
 										
-										is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/clothing/belt_used_condoms_"+condomColours.size()+"_back.svg");
+										is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/clothing/belt_used_condoms_" +condomColours.size()+"_back.svg");
 										s += "<div style='width:100%;height:100%;position:absolute;left:0;bottom:0;padding:0;margin:0'>" + Util.inputStreamToString(is) + "</div>";
 										s = getSVGWithHandledPattern(s, pattern, patternColours);
 										s = SvgUtil.colourReplacement(this.getId(),
@@ -2140,7 +2140,7 @@ public abstract class AbstractClothingType extends AbstractCoreType {
 						
 						int i = 1;
 						for(Colour c : condomColours) {
-							is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/clothing/belt_used_condoms_"+i+"_front.svg");
+							is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/clothing/belt_used_condoms_" +i+"_front.svg");
 							s += "<div style='width:100%;height:100%;position:absolute;left:0;bottom:0;padding:0;margin:0'>" + Util.inputStreamToString(is) + "</div>";
 							s = getSVGWithHandledPattern(s, pattern, patternColours);
 							s = SvgUtil.colourReplacement(this.getId(),

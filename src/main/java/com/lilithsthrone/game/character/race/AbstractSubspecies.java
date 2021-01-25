@@ -1392,7 +1392,7 @@ public abstract class AbstractSubspecies {
 				if(!backgroundPath.isEmpty()) {
 					try {
 						String SVGStringLegConfigurationBackground = "";
-						InputStream is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/"+backgroundPath+".svg");
+						InputStream is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/" +backgroundPath+".svg");
 						SVGStringLegConfigurationBackground = "<div style='width:100%;height:100%;position:absolute;left:0;bottom:0;'>"+Util.inputStreamToString(is)+"</div>";
 						is.close();
 						SVGStringLegConfigurationBackground = SvgUtil.colourReplacement(Subspecies.getIdFromSubspecies(this)+"NBPID",

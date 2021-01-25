@@ -414,7 +414,7 @@ public class WorldType {
 			false,
 			false,
 			TeleportPermissions.OUTGOING_ONLY,
-			"/com/lilithsthrone/res/map/dominion/textilesWarehouse/textilesWarehouse.png", PlaceType.WORLD_MAP_DOMINION, PlaceType.TEXTILE_WAREHOUSE_ENTRANCE, Util.newHashMapOfValues(
+            "/com/lilithsthrone/res/map/dominion/textilesWarehouse/textilesWarehouse.png", PlaceType.WORLD_MAP_DOMINION, PlaceType.TEXTILE_WAREHOUSE_ENTRANCE, Util.newHashMapOfValues(
 					new Value<>(new Color(0xFFFFFF), PlaceType.GENERIC_IMPASSABLE),
 					new Value<>(new Color(0x808080), PlaceType.TEXTILE_WAREHOUSE_CORRIDOR),
 					new Value<>(new Color(0xff0000), PlaceType.TEXTILE_WAREHOUSE_ENTRANCE),
@@ -439,7 +439,7 @@ public class WorldType {
 			false,
 			false,
 			TeleportPermissions.OUTGOING_ONLY,
-			"/com/lilithsthrone/res/map/dominion/enforcerHQ/enforcerHQ.png", PlaceType.WORLD_MAP_DOMINION, PlaceType.ENFORCER_HQ_ENTRANCE, Util.newHashMapOfValues(
+            "/com/lilithsthrone/res/map/dominion/enforcerHQ/enforcerHQ.png", PlaceType.WORLD_MAP_DOMINION, PlaceType.ENFORCER_HQ_ENTRANCE, Util.newHashMapOfValues(
 					new Value<>(new Color(0xFFFFFF), PlaceType.GENERIC_IMPASSABLE),
 					new Value<>(new Color(0x808080), PlaceType.ENFORCER_HQ_CORRIDOR),
 					new Value<>(new Color(0xb9b9b9), PlaceType.ENFORCER_HQ_CELLS_CORRIDOR),
@@ -480,7 +480,7 @@ public class WorldType {
 			false,
 			false,
 			TeleportPermissions.NONE,
-			"/com/lilithsthrone/res/map/dominion/enforcerWarehouse/enforcerWarehouse.png", PlaceType.WORLD_MAP_DOMINION, PlaceType.ENFORCER_WAREHOUSE_ENTRANCE, Util.newHashMapOfValues(
+            "/com/lilithsthrone/res/map/dominion/enforcerWarehouse/enforcerWarehouse.png", PlaceType.WORLD_MAP_DOMINION, PlaceType.ENFORCER_WAREHOUSE_ENTRANCE, Util.newHashMapOfValues(
 					new Value<>(new Color(0xFFFFFF), PlaceType.GENERIC_IMPASSABLE),
 					new Value<>(new Color(0xff0000), PlaceType.ENFORCER_WAREHOUSE_ENTRANCE),
 					new Value<>(new Color(0x808080), PlaceType.ENFORCER_WAREHOUSE_CORRIDOR),
@@ -1020,7 +1020,7 @@ public class WorldType {
 			false,
 			false,
 			TeleportPermissions.NONE,
-			"/com/lilithsthrone/res/map/submission/ratWarrens/ratWarrens.png",
+            "/com/lilithsthrone/res/map/submission/ratWarrens/ratWarrens.png",
 			PlaceType.WORLD_MAP_DOMINION, PlaceType.RAT_WARRENS_ENTRANCE, Util.newHashMapOfValues(
 					new Value<>(new Color(0xFFFFFF), PlaceType.GENERIC_IMPASSABLE),
 					new Value<>(new Color(0x808080), PlaceType.RAT_WARRENS_CORRIDOR_LEFT),

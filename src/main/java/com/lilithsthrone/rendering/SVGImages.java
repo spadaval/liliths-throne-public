@@ -633,7 +633,7 @@ public enum SVGImages {
 			
 			
 			for(int i=1; i<=9; i++) {
-				is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/statusEffects/race/raceFoxTail"+i+".svg");
+				is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/statusEffects/race/raceFoxTail" +i+".svg");
 				String svg = Util.inputStreamToString(is);
 				svg = SvgUtil.colourReplacement("foxTail"+i,
 						PresetColour.RACE_FOX_MORPH,
@@ -643,7 +643,7 @@ public enum SVGImages {
 				
 				youkoTailsMap.put(i, svg);
 
-				is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/statusEffects/race/raceFoxTail"+i+".svg");
+				is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/statusEffects/race/raceFoxTail" +i+".svg");
 				svg = Util.inputStreamToString(is);
 				svg = SvgUtil.colourReplacement("foxTail"+i,
 						PresetColour.RACE_HALF_DEMON,
@@ -652,7 +652,7 @@ public enum SVGImages {
 						svg);
 				youkoTailsDemonMap.put(i, svg);
 
-				is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/statusEffects/race/raceFoxTail"+i+".svg");
+				is = this.getClass().getResourceAsStream("/com/lilithsthrone/res/statusEffects/race/raceFoxTail" +i+".svg");
 				svg = Util.inputStreamToString(is);
 				svg = SvgUtil.colourReplacement("foxTail"+i,
 						PresetColour.BASE_GREY,
